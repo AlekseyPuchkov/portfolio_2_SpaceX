@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1366px;
   margin: 0 auto;
 }
 
@@ -28,8 +28,8 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 60px;
 }
 
@@ -38,7 +38,7 @@ li {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .nav__links {
@@ -65,7 +65,7 @@ li {
 
 .top {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin-top: 122px;
 }
 
@@ -76,11 +76,11 @@ li {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .top__heading {
@@ -106,11 +106,11 @@ li {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 1006px;
   margin-top: 32px;
 }
@@ -129,8 +129,8 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .space__ship_title {
@@ -153,7 +153,8 @@ li {
   margin-left: 130px;
 }
 
-.space__ship_list1 li, .space__ship_list2 li {
+.space__ship_list1 li,
+.space__ship_list2 li {
   padding-top: 11px;
   font-weight: 400;
   font-size: 18px;
@@ -181,11 +182,11 @@ li {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer__links ul {
@@ -221,8 +222,9 @@ li {
   color: #FFFFFF;
   border: 2px solid #FFFFFF;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 6px;
   padding: 20px 86px;
 }
+
 /*# sourceMappingURL=style.css.map */
