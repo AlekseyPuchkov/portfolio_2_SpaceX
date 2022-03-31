@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1366px;
     margin: 0 auto;
 }
 
@@ -34,14 +34,14 @@ li {
 .nav {
     display: flex;
     justify-content: space-around;
-    
+
 
     &__links {
         font-weight: 400;
         font-size: 12px;
         line-height: 14px;
         color: #FFFFFF;
-        margin-right: 20px;  
+        margin-right: 20px;
     }
 
 }
@@ -54,10 +54,11 @@ li {
         font-size: 12px;
         line-height: 14px;
         color: #808080;
-        margin-right: 20px; 
+        margin-right: 20px;
     }
 }
- //Top
+
+//Top
 
 .top {
     box-sizing: border-box;
@@ -69,13 +70,14 @@ li {
         flex-direction: column;
         align-items: center;
     }
-    
+
     &__heading {
         font-weight: 400;
         font-size: 64px;
         line-height: 75px;
         color: #FFFFFF;
     }
+
     &__text {
         width: 268px;
         font-weight: 300;
@@ -130,7 +132,8 @@ li {
         margin-left: 130px;
     }
 
-    &_list1 li, &_list2 li {
+    &_list1 li,
+    &_list2 li {
         padding-top: 11px;
         font-weight: 400;
         font-size: 18px;
@@ -182,6 +185,7 @@ li {
         margin-top: 30px;
         margin-bottom: 131px;
     }
+
     &__button a {
         font-weight: 400;
         font-size: 18px;
